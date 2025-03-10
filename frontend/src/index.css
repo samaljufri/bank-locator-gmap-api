@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.App {
+  --gmpx-color-surface: #f6f5ff;
+  --gmpx-color-on-primary: #000;
+  --gmpx-color-on-surface: #000;
+  --gmpx-color-on-surface-variant: #636268;
+  --gmpx-color-primary: #ffd700;
+  --gmpx-fixed-panel-height-column-layout: 420px;
+  --gmpx-fixed-panel-width-row-layout: 340px;
+
+  background: var(--gmpx-color-surface);
+  inset: 0;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.SplitLayoutContainer {
+  height: 95vh;
+  padding: 20px;
+  border: #000 solid 1px;
+}
+
+.PlacePicker {
+  --gmpx-color-surface: #fff;
+  flex-grow: 1;
+  /* margin: 1rem; */
+}
+
+.CloseButton {
+  display: block;
+  margin: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header .table-cell,
+.table-body .table-cell {
+  border: 1px solid #ccc;
+  padding: 4px;
+  text-align: left;
+  font-size: 12px;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  color: #333;
+}
