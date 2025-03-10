@@ -26,7 +26,7 @@ npm run dev
 |-----------------------|--------|---------------------------------|---------------|
 | `/api/users`          | GET    | Retrieve a list of users        | Public        |
 | `/api/locations`      | GET    | Retrieve locations by user      | Basic Auth    |
-| `/api/users`          | POST   | Save location by user           | Basic Auth    | 
+| `/api/locations`      | POST   | Save location by user           | Basic Auth    | 
 
 ## Snapshots
 * Three preloaded users are available (user1, user2, user3).
